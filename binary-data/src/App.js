@@ -1,5 +1,7 @@
+import BinaryData from "./BinaryData";
+
 function App() {
-  return <div className="App"></div>;
+  return <>{<BinaryData />}</>;
 }
 
 export default App;
