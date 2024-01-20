@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
 import Clipboard from "./Clipboard";
+import IndexedDb from "../Component/IndexedDb";
 
 function Login() {
   const [username, setUsername] = useState("");
@@ -57,6 +58,8 @@ function Login() {
       </form>
       <hr />
       <Clipboard />
+      <hr />
+      <IndexedDb />
     </div>
   );
 }
