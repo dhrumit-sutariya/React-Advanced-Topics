@@ -4,6 +4,7 @@ import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
 import Clipboard from "./Clipboard";
 import IndexedDb from "../Component/IndexedDb";
+import FileReaderDemo from "../Component/FileReader";
 
 function Login() {
   const [username, setUsername] = useState("");
@@ -26,6 +27,7 @@ function Login() {
 
   return (
     <div>
+      <h1>Login Form</h1>
       <form>
         <label>
           Username :-
@@ -60,6 +62,8 @@ function Login() {
       <Clipboard />
       <hr />
       <IndexedDb />
+      <hr />
+      <FileReaderDemo />
     </div>
   );
 }

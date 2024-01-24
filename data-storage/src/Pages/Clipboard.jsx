@@ -17,7 +17,7 @@ function Clipboard() {
         console.log("copied");
         setTimeout(() => {
           setIsCopied(false);
-        }, 1500);
+        }, 2000);
       })
       .catch((err) => {
         console.log(err);

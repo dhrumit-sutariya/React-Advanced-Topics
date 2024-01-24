@@ -66,6 +66,7 @@ const IndexedDb = () => {
 
   return (
     <div>
+      <h1>Indexed DB</h1>
       <button onClick={() => addData({ name: "dhrumit", age: 23 })}>
         Add Data
       </button>
