@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DOMPurify, { sanitize } from "dompurify";
+import DOMPurify from "dompurify";
 
 const TrustedTypesDemo = () => {
   const [name, setName] = useState("");
